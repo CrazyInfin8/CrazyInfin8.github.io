@@ -9,7 +9,10 @@ function setup() {
 	createCanvas(windowWidth, windowHeight);
 	imageMode(CENTER);
 	gamepad = new Joy();
-	tank = new Tank(img)
+	tank = new Tank(img);
+	document.getElementsByTagName('body')[0].addEventListener('touchmove', function(e) {
+		e.preventDefault()
+	})
 }
 
 function draw() {
