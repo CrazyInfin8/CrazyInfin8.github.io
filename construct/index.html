@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construct Projects</title>
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+            background: #eee;
+        }
+        .center {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+        .project {
+            padding: 2em;
+            border: solid #666;
+            max-width: 500px;
+            border-radius: 2em;
+        }
+        h1 {
+            font-family: sans-serif;
+            font-weight: bold;
+            color: #666;
+            font-size: 2em;
+        }
+        a>div.link-box {
+            margin: 1em;
+            padding: 1em;
+            border: dashed #666 0.5rem;
+            font-family: sans-serif;
+            font-weight: bold;
+            font-size: 1.5em;
+            color: #666;
+            text-decoration: underline;
+        }
+        a>div.link-box:hover {
+            border: dashed #eee 0.5rem;
+            color: #eee;
+            background: #666;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="center">
+        <div id="trivia" class="project">
+            <h1>Trivia Game</h1>
+            <a href="./trivia">
+                <div class="link-box html-link">
+                    View in browser
+                </div>
+            </a>
+            <a href="./trivia/trivia.apk">
+                <div class="link-box html-link">
+                    Install on Android
+                </div>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
