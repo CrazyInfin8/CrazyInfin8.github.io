@@ -1,0 +1,46 @@
+{
+  "ogmoVersion": "3.4.0",
+  "width": 128,
+  "height": 128,
+  "offsetX": 0,
+  "offsetY": 0,
+  "layers": [
+    {
+      "name": "ground",
+      "_eid": "19695800",
+      "offsetX": 0,
+      "offsetY": 0,
+      "gridCellWidth": 16,
+      "gridCellHeight": 16,
+      "gridCellsX": 8,
+      "gridCellsY": 8,
+      "tileset": "New Tileset",
+      "data": [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1],
+      "exportMode": 0,
+      "arrayMode": 0
+    },
+    {
+      "name": "entities",
+      "_eid": "19698440",
+      "offsetX": 0,
+      "offsetY": 0,
+      "gridCellWidth": 16,
+      "gridCellHeight": 16,
+      "gridCellsX": 8,
+      "gridCellsY": 8,
+      "entities": []
+    },
+    {
+      "name": "help text",
+      "_eid": "20808366",
+      "offsetX": 0,
+      "offsetY": 0,
+      "gridCellWidth": 16,
+      "gridCellHeight": 16,
+      "gridCellsX": 8,
+      "gridCellsY": 8,
+      "decals": [],
+      "folder": ""
+    }
+  ]
+}
